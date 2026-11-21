@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data — keep the repo light; track where the data comes from in README instead
+data/*
+!data/.gitkeep
+
+# Logs — audit trails are runtime output, not source
+logs/*
+!logs/.gitkeep
+!logs/*.txt
+
+# Generated rules are outputs too
+rules/*.rules
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+!rules/validated.rules
+!data/README.md
